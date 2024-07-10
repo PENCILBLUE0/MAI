@@ -1,4 +1,4 @@
-# MAI
+# MAI +
 MAI+ (Micro Artificial Intelligence Plus)
                                                                                                                                                                 
 # Description 
