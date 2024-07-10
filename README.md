@@ -1,29 +1,19 @@
 # MAI
 MAI+ (Micro Artificial Intelligence Plus)
-
-
-                                                                                               
-                                                                                               
-MMMMMMMM               MMMMMMMM               AAA               IIIIIIIIII                     
-M:::::::M             M:::::::M              A:::A              I::::::::I                     
-M::::::::M           M::::::::M             A:::::A             I::::::::I                     
-M:::::::::M         M:::::::::M            A:::::::A            II::::::II       +++++++       
-M::::::::::M       M::::::::::M           A:::::::::A             I::::I         +:::::+       
-M:::::::::::M     M:::::::::::M          A:::::A:::::A            I::::I         +:::::+       
-M:::::::M::::M   M::::M:::::::M         A:::::A A:::::A           I::::I   +++++++:::::+++++++ 
-M::::::M M::::M M::::M M::::::M        A:::::A   A:::::A          I::::I   +:::::::::::::::::+ 
-M::::::M  M::::M::::M  M::::::M       A:::::A     A:::::A         I::::I   +:::::::::::::::::+ 
-M::::::M   M:::::::M   M::::::M      A:::::AAAAAAAAA:::::A        I::::I   +++++++:::::+++++++ 
-M::::::M    M:::::M    M::::::M     A:::::::::::::::::::::A       I::::I         +:::::+       
-M::::::M     MMMMM     M::::::M    A:::::AAAAAAAAAAAAA:::::A      I::::I         +:::::+       
-M::::::M               M::::::M   A:::::A             A:::::A   II::::::II       +++++++       
-M::::::M               M::::::M  A:::::A               A:::::A  I::::::::I                     
-M::::::M               M::::::M A:::::A                 A:::::A I::::::::I                     
-MMMMMMMM               MMMMMMMMAAAAAAA                   AAAAAAAIIIIIIIIII                     
-                                                                                               
-                                                                                               
-                                                                                               
-                                                                                                                
+                                              
+ __  __   ___            .--.                        
+|  |/  `.'   `.          |__|                        
+|   .-.  .-.   '         .--.    .-.                 
+|  |  |  |  |  |    __   |  |    | |                 
+|  |  |  |  |  | .:--.'. |  |,---| |---.             
+|  |  |  |  |  |/ |   \ ||  |`---| |---'             
+|  |  |  |  |  |`" __ | ||  |    | |                 
+|__|  |__|  |__| .'.''| ||__|    `-'                 
+                / /   | |_                           
+                \ \._,\ '/                           
+                 `--'  `"                          _ 
+                        
+                                                                                                           
 # Description 
 MAI+ (Micro Artificial Intelligence Plus) is a C++ project aimed at providing an interface capable of answering questions in English while avoiding the use of sensitive words through integrated filtering. This AI uses a local knowledge base (data.txt) and can also query Wikipedia for reliable information.
 
