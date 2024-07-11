@@ -1,1 +1,15 @@
-all data for mai+
+apple - a round fruit with red or green skin and a whitish interior
+computer - an electronic device for storing and processing data
+house - a building for human habitation
+table - a piece of furniture with a flat top and one or more legs
+dog - a domesticated carnivorous mammal with four legs
+cat - a small domesticated carnivorous mammal with soft fur
+bird - a warm-blooded egg-laying vertebrate with feathers and wings
+car - a road vehicle powered by an internal combustion engine
+book - a set of written or printed pages bound together as a literary or informational work
+music - vocal or instrumental sounds (or both) combined in such a way as to produce beauty of form, harmony, and expression
+space - the vast, seemingly infinite expanse that exists beyond the Earth and between celestial bodies
+science - the systematic study of the structure and behavior of the physical and natural world through observation and experiment
+internet - a global computer network providing a variety of information and communication facilities, consisting of interconnected networks using standardized communication protocols
+history - the study of past events, particularly in human affairs
+math - the abstract science of number, quantity, and space, either as abstract concepts or as applied to other disciplines such as physics and engineering
