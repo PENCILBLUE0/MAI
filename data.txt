@@ -13,3 +13,62 @@ science - the systematic study of the structure and behavior of the physical and
 internet - a global computer network providing a variety of information and communication facilities, consisting of interconnected networks using standardized communication protocols
 history - the study of past events, particularly in human affairs
 math - the abstract science of number, quantity, and space, either as abstract concepts or as applied to other disciplines such as physics and engineering
+able - Having the capability or power to do something.
+about -In the vicinity of; concerning; related to.
+above - Higher in position; overhead.
+accept - To receive willingly; to agree to.
+account - A record or statement of financial transactions.
+across - From one side to the other; spanning.
+act - To take action; a deed or performance.
+add - To combine or increase in number or amount.
+address - The location or directions to a place; to speak to or write to.
+admit - To allow entry; to acknowledge the truth.
+adult - A person who is fully grown or mature.
+advantage - A benefit or gain; superiority in a situation.
+after- Following in time or place; later than.
+again- Once more; another time.
+against- In opposition to; touching or in contact with.
+age- The length of time someone or something has existed.
+ago- In the past; before now.
+agree - To have the same opinion; to consent.
+air - The mixture of gases that forms the Earth's atmosphere.
+all - The whole quantity or extent; every one.
+allow - To give permission; to permit.
+almost - Nearly; not quite.
+alone - By oneself; solitary.
+along - In company; parallel to; together with.
+already - Previously; before now.
+also - In addition; too.
+although - Even though; despite the fact that.
+always - At all times; continuously.
+among - In the midst of; surrounded by.
+amount - The total sum; quantity.
+an - Indefinite article used before singular nouns beginning with a vowel sound.
+and - Used to connect words or phrases.
+anger- Strong feeling of displeasure or hostility.
+animal- A living organism that feeds on organic matter.
+announce - To make known publicly; to declare.
+another- One more; a different one.
+answer - A response to a question; to reply.
+any - Whatever or whichever out of a group.
+anyone - Any person; anybody.
+anything - Any thing; any object, event, or fact.
+anyway - In any case; nevertheless.
+appear - To come into sight; to be evident or visible.
+apply - To put to use; to request something formally.
+area - A region; a space or extent of surface.
+argue - To present reasons; to dispute or disagree.
+arm - The upper limb of the human body; a weapon.
+around - In a circle or surrounding; approximately.
+arrive - To reach a destination.
+art - Creative expression; skill or craft.
+as - In the same way; for instance; to the degree that.
+ask - To inquire; to request information.
+at - Located in; indicating a point in time.
+attack - To aggressively strike; an assault.
+attention - Concentration of the mind; notice or observation.
+audience - The spectators or listeners of a performance or speech.
+author - The writer of a book, article, or document.
+authority - Power to enforce rules; a person with expert knowledge.
+available - Accessible or obtainable; ready for use.
+away - Not here; at a distance.
