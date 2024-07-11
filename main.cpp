@@ -2,12 +2,15 @@
 #include <fstream>
 #include <sstream>
 #include <string>
-#include <map>
 #include <vector>
+#include <map>
+#include <set>
 #include <ctime>
 #include <cstdlib>
 #include <algorithm>
-#include <set>
+#include <regex>
+#include <chrono>
+#include <thread>
 
 // ANSI escape codes for colored output
 const std::string ANSI_COLOR_RESET = "\033[0m";
@@ -27,7 +30,7 @@ std::vector<std::string> split(const std::string &str, char delimiter) {
     return tokens;
 }
 
-// Function to build the Markov model of higher order (N-grams)
+// Function to build a higher-order Markov model (N-grams)
 std::map<std::string, std::vector<std::string>> buildMarkovModel(const std::vector<std::string> &words, int order) {
     std::map<std::string, std::vector<std::string>> markovModel;
     for (size_t i = 0; i < words.size() - order; ++i) {
@@ -71,7 +74,7 @@ std::string generateResponse(const std::map<std::string, std::vector<std::string
     return response;
 }
 
-// Function to read the text file and extract words
+// Function to read a text file and extract words
 std::vector<std::string> readDataFile(const std::string &fileName) {
     std::ifstream file(fileName);
     std::vector<std::string> words;
@@ -88,6 +91,28 @@ std::vector<std::string> readDataFile(const std::string &fileName) {
         std::cerr << ANSI_COLOR_RED << "Unable to open file: " << fileName << ANSI_COLOR_RESET << std::endl;
     }
     return words;
+}
+
+// Function to read a text file and extract definitions
+std::map<std::string, std::string> readDefinitionsFile(const std::string &fileName) {
+    std::ifstream file(fileName);
+    std::map<std::string, std::string> definitions;
+    std::string line, word, definition;
+
+    if (file.is_open()) {
+        while (std::getline(file, line)) {
+            std::size_t pos = line.find(" - ");
+            if (pos != std::string::npos) {
+                word = line.substr(0, pos);
+                definition = line.substr(pos + 3);
+                definitions[word] = definition;
+            }
+        }
+        file.close();
+    } else {
+        std::cerr << ANSI_COLOR_RED << "Unable to open file: " << fileName << ANSI_COLOR_RESET << std::endl;
+    }
+    return definitions;
 }
 
 // Function to load inappropriate words from a file
@@ -118,9 +143,8 @@ bool containsInappropriateWord(const std::string &question, const std::set<std::
     return false;
 }
 
-// Function to perform sentiment analysis
+// Function to perform sentiment analysis (simplified)
 bool isPositiveSentiment(const std::string &question) {
-    // Simplified sentiment analysis based on keywords or patterns
     std::string positiveKeywords[] = {"happy", "good", "great", "love", "like"};
     for (const auto &keyword : positiveKeywords) {
         if (question.find(keyword) != std::string::npos) {
@@ -130,24 +154,62 @@ bool isPositiveSentiment(const std::string &question) {
     return false;
 }
 
+// Function to print text with a typing animation
+void printWithAnimation(const std::string &text, int delay) {
+    for (char c : text) {
+        std::cout << c << std::flush;
+        std::this_thread::sleep_for(std::chrono::milliseconds(delay));
+    }
+}
+
 // Function to print text in green color
 void printGreen(const std::string &text) {
-    std::cout << ANSI_COLOR_GREEN << text << ANSI_COLOR_RESET; // Print in green
+    std::cout << ANSI_COLOR_GREEN;
+    printWithAnimation(text, 20);
+    std::cout << ANSI_COLOR_RESET;
 }
 
 // Function to print text in red color
 void printRed(const std::string &text) {
-    std::cout << ANSI_COLOR_RED << text << ANSI_COLOR_RESET; // Print in red
+    std::cout << ANSI_COLOR_RED;
+    printWithAnimation(text, 20);
+    std::cout << ANSI_COLOR_RESET;
 }
 
 // Function to print text in yellow color
 void printYellow(const std::string &text) {
-    std::cout << ANSI_COLOR_YELLOW << text << ANSI_COLOR_RESET; // Print in yellow
+    std::cout << ANSI_COLOR_YELLOW;
+    printWithAnimation(text, 20);
+    std::cout << ANSI_COLOR_RESET;
 }
 
 // Function to print text in blue color
 void printBlue(const std::string &text) {
-    std::cout << ANSI_COLOR_BLUE << text << ANSI_COLOR_RESET; // Print in blue
+    std::cout << ANSI_COLOR_BLUE;
+    printWithAnimation(text, 20);
+    std::cout << ANSI_COLOR_RESET;
+}
+
+// Function to check if the question is about a definition
+bool isDefinitionQuestion(const std::string &question) {
+    std::vector<std::string> questionWords = split(question, ' ');
+    if (questionWords.size() > 2) {
+        std::string firstWord = questionWords[0];
+        std::string secondWord = questionWords[1];
+        std::transform(firstWord.begin(), firstWord.end(), firstWord.begin(), ::tolower);
+        std::transform(secondWord.begin(), secondWord.end(), secondWord.begin(), ::tolower);
+        return (firstWord == "what" && secondWord == "is") || (firstWord == "who" && secondWord == "is");
+    }
+    return false;
+}
+
+// Function to extract the keyword from a definition question
+std::string extractKeyword(const std::string &question) {
+    std::vector<std::string> questionWords = split(question, ' ');
+    if (questionWords.size() > 2) {
+        return questionWords[2]; // Assume the keyword is the third word in the question
+    }
+    return "";
 }
 
 int main() {
@@ -166,7 +228,7 @@ int main() {
     std::cout << "\n";
     std::cout << "           MADE BY: " << ANSI_COLOR_BLUE << "PENCILBLUE0" << ANSI_COLOR_RESET << std::endl;
     std::cout << "\n";
-    std::cout << "V.1.0\n";
+    std::cout << "V.2.0\n";
     std::cout << "--------------------------------------------------\n";
     std::cout << "==================================================\n";
     std::cout << "" << std::endl;
@@ -176,24 +238,28 @@ int main() {
     std::cin >> name;
     std::cout << "--Hello, " << name << ". You can ask your questions now (type 'exit' to quit)." << std::endl;
 
+    std::cin.ignore(); // Ignore any newline characters left in the input buffer after reading the user's name
+
     // Read the data file
     std::vector<std::string> words = readDataFile("data.txt");
+
+    // Read the definitions file
+    std::map<std::string, std::string> definitions = readDefinitionsFile("data.txt");
 
     // Load inappropriate words
     std::set<std::string> inappropriateWords = loadInappropriateWords("inappropriate_word.txt");
 
-    std::cin.ignore(); // Ignore any newline characters left in the input buffer after reading the user's name
-
     // Array of question prompts
     std::vector<std::string> questionPrompts = {
-        "--What is your question?",
+        "--What would you like to know?",
         "--I'm here to help. What would you like to know?",
         "--Feel free to ask anything!",
         "--What's on your mind today?",
         "--How can I assist you?"
     };
 
-    std::map<std::string, std::vector<std::string>> markovModel = buildMarkovModel(words, 3); // Build a tri-gram Markov model initially
+    // Build a tri-gram Markov model initially
+    std::map<std::string, std::vector<std::string>> markovModel = buildMarkovModel(words, 3);
 
     while (true) {
         std::string question;
@@ -212,6 +278,22 @@ int main() {
             continue;
         }
 
+        // Check if the question is about a definition
+        if (isDefinitionQuestion(question)) {
+            std::string keyword = extractKeyword(question);
+            auto it = definitions.find(keyword);
+            if (it != definitions.end()) {
+                printGreen("--Response:");
+                std::cout << " ";
+                printWithAnimation(it->second, 30);
+                std::cout << std::endl;
+            } else {
+                printRed("--Sorry, I couldn't find an explanation for that in my database.");
+                std::cout << std::endl;
+            }
+            continue;
+        }
+
         // Perform sentiment analysis
         bool positiveSentiment = isPositiveSentiment(question);
 
@@ -224,8 +306,13 @@ int main() {
         } else {
             printYellow("--Response:");
         }
-        std::cout << " " << response << std::endl;
+        std::cout << " ";
+        printWithAnimation(response, 30);
         std::cout << std::endl;
+        std::cout << std::endl;
+
+        // Simulate a delay before next interaction
+        std::this_thread::sleep_for(std::chrono::seconds(1));
     }
 
     printBlue("--Goodbye!");
