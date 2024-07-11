@@ -9,8 +9,17 @@ MAI+ (Micro Artificial Intelligence Plus) is a sophisticated C++ project designe
 2 Automated filtering of profanity and sensitive language.
 3 Utilization of a local database (data.txt) for diverse response generation.
 4 Seamless integration with Wikipedia for supplementary information retrieval.
+5 Do not collect data.
 # License
 This project is licensed under the MIT License. For more details, refer to the LICENSE file.
+
+# How to use
+
+Interaction with the AI
+
+The AI will ask for your name to start.
+You can ask questions using phrases like "What is...", "Who is...", etc.
+To exit the AI, type "exit".
 
 # Changing the World with MAI+
 MAI+ seeks to redefine human-AI interactions by offering a powerful, efficient, and user-friendly solution in C++. By enabling users to ask questions in English and receiving respectful and informative responses, MAI+ sets a new benchmark for AI accessibility. Through its blend of local knowledge and reliable external data sources ,MAI+ promotes education, collaboration, and innovation. Join us in shaping a future where intelligent systems like MAI+ enrich daily interactions and contribute positively to our global community.
