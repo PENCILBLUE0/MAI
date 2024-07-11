@@ -12,14 +12,14 @@
 #include <chrono>
 #include <thread>
 
-// ANSI escape codes for colored output
+
 const std::string ANSI_COLOR_RESET = "\033[0m";
 const std::string ANSI_COLOR_GREEN = "\033[1;32m";
 const std::string ANSI_COLOR_RED = "\033[1;31m";
 const std::string ANSI_COLOR_YELLOW = "\033[1;33m";
 const std::string ANSI_COLOR_BLUE = "\033[1;34m";
 
-// Function to split a string into words
+
 std::vector<std::string> split(const std::string &str, char delimiter) {
     std::vector<std::string> tokens;
     std::string token;
@@ -30,7 +30,7 @@ std::vector<std::string> split(const std::string &str, char delimiter) {
     return tokens;
 }
 
-// Function to build a higher-order Markov model (N-grams)
+
 std::map<std::string, std::vector<std::string>> buildMarkovModel(const std::vector<std::string> &words, int order) {
     std::map<std::string, std::vector<std::string>> markovModel;
     for (size_t i = 0; i < words.size() - order; ++i) {
@@ -44,7 +44,7 @@ std::map<std::string, std::vector<std::string>> buildMarkovModel(const std::vect
     return markovModel;
 }
 
-// Function to generate a response using a higher-order Markov model
+
 std::string generateResponse(const std::map<std::string, std::vector<std::string>> &markovModel, const std::string &startPhrase) {
     std::string response = startPhrase;
     std::string currentPhrase = startPhrase;
@@ -74,7 +74,7 @@ std::string generateResponse(const std::map<std::string, std::vector<std::string
     return response;
 }
 
-// Function to read a text file and extract words
+
 std::vector<std::string> readDataFile(const std::string &fileName) {
     std::ifstream file(fileName);
     std::vector<std::string> words;
@@ -93,7 +93,7 @@ std::vector<std::string> readDataFile(const std::string &fileName) {
     return words;
 }
 
-// Function to read a text file and extract definitions
+
 std::map<std::string, std::string> readDefinitionsFile(const std::string &fileName) {
     std::ifstream file(fileName);
     std::map<std::string, std::string> definitions;
@@ -115,7 +115,7 @@ std::map<std::string, std::string> readDefinitionsFile(const std::string &fileNa
     return definitions;
 }
 
-// Function to load inappropriate words from a file
+
 std::set<std::string> loadInappropriateWords(const std::string &fileName) {
     std::ifstream file(fileName);
     std::set<std::string> inappropriateWords;
@@ -132,7 +132,7 @@ std::set<std::string> loadInappropriateWords(const std::string &fileName) {
     return inappropriateWords;
 }
 
-// Function to check for inappropriate words
+
 bool containsInappropriateWord(const std::string &question, const std::set<std::string> &inappropriateWords) {
     std::vector<std::string> words = split(question, ' ');
     for (const auto &word : words) {
@@ -143,7 +143,7 @@ bool containsInappropriateWord(const std::string &question, const std::set<std::
     return false;
 }
 
-// Function to perform sentiment analysis (simplified)
+
 bool isPositiveSentiment(const std::string &question) {
     std::string positiveKeywords[] = {"happy", "good", "great", "love", "like"};
     for (const auto &keyword : positiveKeywords) {
@@ -154,7 +154,7 @@ bool isPositiveSentiment(const std::string &question) {
     return false;
 }
 
-// Function to print text with a typing animation
+
 void printWithAnimation(const std::string &text, int delay) {
     for (char c : text) {
         std::cout << c << std::flush;
@@ -162,35 +162,35 @@ void printWithAnimation(const std::string &text, int delay) {
     }
 }
 
-// Function to print text in green color
+
 void printGreen(const std::string &text) {
     std::cout << ANSI_COLOR_GREEN;
     printWithAnimation(text, 20);
     std::cout << ANSI_COLOR_RESET;
 }
 
-// Function to print text in red color
+
 void printRed(const std::string &text) {
     std::cout << ANSI_COLOR_RED;
     printWithAnimation(text, 20);
     std::cout << ANSI_COLOR_RESET;
 }
 
-// Function to print text in yellow color
+
 void printYellow(const std::string &text) {
     std::cout << ANSI_COLOR_YELLOW;
     printWithAnimation(text, 20);
     std::cout << ANSI_COLOR_RESET;
 }
 
-// Function to print text in blue color
+
 void printBlue(const std::string &text) {
     std::cout << ANSI_COLOR_BLUE;
     printWithAnimation(text, 20);
     std::cout << ANSI_COLOR_RESET;
 }
 
-// Function to check if the question is about a definition
+
 bool isDefinitionQuestion(const std::string &question) {
     std::vector<std::string> questionWords = split(question, ' ');
     if (questionWords.size() > 2) {
@@ -203,7 +203,7 @@ bool isDefinitionQuestion(const std::string &question) {
     return false;
 }
 
-// Function to extract the keyword from a definition question
+
 std::string extractKeyword(const std::string &question) {
     std::vector<std::string> questionWords = split(question, ' ');
     if (questionWords.size() > 2) {
@@ -240,16 +240,16 @@ int main() {
 
     std::cin.ignore(); // Ignore any newline characters left in the input buffer after reading the user's name
 
-    // Read the data file
+    
     std::vector<std::string> words = readDataFile("data.txt");
 
-    // Read the definitions file
+    
     std::map<std::string, std::string> definitions = readDefinitionsFile("data.txt");
 
-    // Load inappropriate words
+   
     std::set<std::string> inappropriateWords = loadInappropriateWords("inappropriate_word.txt");
 
-    // Array of question prompts
+   
     std::vector<std::string> questionPrompts = {
         "--What would you like to know?",
         "--I'm here to help. What would you like to know?",
@@ -258,12 +258,12 @@ int main() {
         "--How can I assist you?"
     };
 
-    // Build a tri-gram Markov model initially
+    
     std::map<std::string, std::vector<std::string>> markovModel = buildMarkovModel(words, 3);
 
     while (true) {
         std::string question;
-        // Randomly select a question prompt
+        
         std::cout << questionPrompts[rand() % questionPrompts.size()] << std::endl;
         std::getline(std::cin, question);
 
@@ -271,14 +271,14 @@ int main() {
             break;
         }
 
-        // Check for inappropriate words
+        
         if (containsInappropriateWord(question, inappropriateWords)) {
             printRed("--Sorry, I can't respond to that.");
             std::cout << std::endl;
             continue;
         }
 
-        // Check if the question is about a definition
+        
         if (isDefinitionQuestion(question)) {
             std::string keyword = extractKeyword(question);
             auto it = definitions.find(keyword);
@@ -294,13 +294,13 @@ int main() {
             continue;
         }
 
-        // Perform sentiment analysis
+        
         bool positiveSentiment = isPositiveSentiment(question);
 
-        // Generate a response using the Markov model
+       
         std::string response = generateResponse(markovModel, question);
 
-        // Print the response with appropriate color
+        
         if (positiveSentiment) {
             printGreen("--Response:");
         } else {
@@ -311,7 +311,7 @@ int main() {
         std::cout << std::endl;
         std::cout << std::endl;
 
-        // Simulate a delay before next interaction
+        
         std::this_thread::sleep_for(std::chrono::seconds(1));
     }
 
