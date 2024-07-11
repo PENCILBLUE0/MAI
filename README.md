@@ -1,5 +1,5 @@
 # MAI+ (Micro Artificial Intelligence Plus)
-===========================================
+================================================================
 # Description
 MAI+ (Micro Artificial Intelligence Plus) is a sophisticated C++ project designed to intelligently answer questions in English while maintaining sensitivity through integrated content filtering. This AI leverages a local knowledge base (data.txt) and has the capability to retrieve information from Wikipedia to provide comprehensive responses.
 
