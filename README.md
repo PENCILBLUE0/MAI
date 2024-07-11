@@ -5,11 +5,12 @@
 MAI+ (Micro Artificial Intelligence Plus) is a sophisticated C++ project designed to intelligently answer questions in English while maintaining sensitivity through integrated content filtering. This AI leverages a local knowledge base (data.txt) and has the capability to retrieve information from Wikipedia to provide comprehensive responses.
 
 # Features
-1 Responsive English language question answering.
-2 Automated filtering of profanity and sensitive language.
-3 Utilization of a local database (data.txt) for diverse response generation.
-4 Seamless integration with Wikipedia for supplementary information retrieval.
-5 Do not collect data.
+1. Responsive English language question answering.
+2. Automated filtering of profanity and sensitive language.
+3. Utilization of a local database (data.txt) for diverse response generation.
+4. Portable AI that runs on all devices
+5. Do not collect data.
+6. Not much computing power is needed.
 # License
 This project is licensed under the MIT License. For more details, refer to the LICENSE file.
 
