@@ -228,7 +228,7 @@ int main() {
     std::cout << "\n";
     std::cout << "           MADE BY: " << ANSI_COLOR_BLUE << "PENCILBLUE0" << ANSI_COLOR_RESET << std::endl;
     std::cout << "\n";
-    std::cout << "V.2.0\n";
+    std::cout << "V.1.0\n";
     std::cout << "--------------------------------------------------\n";
     std::cout << "==================================================\n";
     std::cout << "" << std::endl;
