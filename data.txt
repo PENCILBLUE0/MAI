@@ -72,3 +72,253 @@ author - The writer of a book, article, or document.
 authority - Power to enforce rules; a person with expert knowledge.
 available - Accessible or obtainable; ready for use.
 away - Not here; at a distance.
+airport - A complex of runways and buildings for the takeoff, landing, and maintenance of civil aircraft, with facilities for passengers.
+alarm - A warning of danger, typically a loud noise or flashing light.
+alcohol - A colorless volatile flammable liquid that is the intoxicating constituent of wine, beer, spirits, and other drinks.
+alien - A foreigner, especially one who is not a naturalized citizen of the country where they are living.
+allergy - A damaging immune response by the body to a substance, especially pollen, fur, a particular food, or dust, to which it has become hypersensitive.
+ambulance - A vehicle equipped for taking sick or injured people to and from the hospital, especially in emergencies.
+ancient - Belonging to the very distant past and no longer in existence.
+angel - A spiritual being believed to act as an attendant, agent, or messenger of God.
+angle - The space (usually measured in degrees) between two intersecting lines or surfaces at or close to the point where they meet.
+animal - A living organism that feeds on organic matter, typically having specialized sense organs and nervous system and able to respond rapidly to stimuli.
+ankle - The joint connecting the foot with the leg.
+answer - A response to a question or a solution to a problem.
+apartment - A suite of rooms forming one residence, typically on one floor and within a larger building containing a number of such residences.
+aquarium - A transparent tank of water in which fish and other water creatures and plants are kept.
+arch - A curved symmetrical structure spanning an opening and typically supporting the weight of a bridge, roof, or wall above it.
+arrow - A weapon consisting of a thin, straight stick with a sharp point, designed to be shot from a bow.
+artist - A person who creates paintings or drawings as a profession or hobby.
+ash - The powdery residue left after the combustion of a substance.
+aspect - A particular part or feature of something.
+aspirin - A synthetic compound used medicinally to relieve mild or chronic pain and to reduce fever and inflammation.
+assignment - A task or piece of work allocated to someone as part of a job or course of study.
+assistant - A person who ranks below a senior person.
+athlete - A person who is proficient in sports and other forms of physical exercise.
+atom - The basic unit of a chemical element.
+attack - Take aggressive action against (a place or enemy forces) with weapons or armed force.
+attempt - Make an effort to achieve or complete (something difficult).
+attention - Notice taken of someone or something; the regarding of someone or something as interesting or important.
+attitude - A settled way of thinking or feeling about something.
+auction - A public sale in which goods or property are sold to the highest bidder.
+audience - The assembled spectators or listeners at a public event, such as a play, movie, concert, or meeting.
+author - A writer of a book, article, or report.
+automatic - (Of a device or process) working by itself with little or no direct human control.
+available - Able to be used or obtained; at someone's disposal.
+avenue - A broad road in a town or city, typically having trees at regular intervals along its sides.
+average - The result obtained by adding several quantities together and then dividing this total by the number of quantities.
+award - A prize or other mark of recognition given in honor of an achievement.
+bachelor - A man who is not and has never been married.
+bacteria - Microscopic living organisms, usually one-celled, that can be found everywhere.
+balance - An even distribution of weight enabling someone or something to remain upright and steady.
+balloon - A small rubber bag that you blow air into or fill with a light gas until it is round in shape, used for decoration or as a toy.
+banana - A long curved fruit with a thick skin and soft sweet flesh.
+bandage - A strip of woven material used to bind up a wound or to protect an injured part of the body.
+barber - A person who cuts hair, especially men's, and shaves or trims beards as an occupation.
+barn - A large farm building used for storing grain, hay, or straw or for housing livestock.
+barrier - A fence or other obstacle that prevents movement or access.
+baseball - A ball game played between two teams of nine on a diamond-shaped circuit of four bases.
+basement - The floor of a building which is partly or entirely below ground level.
+basket - A container used to hold or carry things, typically made from interwoven strips of cane or wire.
+battery - A container consisting of one or more cells, in which chemical energy is converted into electricity and used as a source of power.
+beach - A pebbly or sandy shore, especially by the sea between high- and low-water marks.
+bean - An edible seed, typically kidney-shaped, growing in long pods on certain leguminous plants.
+beauty - A combination of qualities, such as shape, color, or form, that pleases the aesthetic senses, especially the sight.
+bedroom - A room for sleeping in.
+beef - The flesh of a cow, bull, or ox, used as food.
+behavior - The way in which one acts or conducts oneself, especially towards others.
+belief - An acceptance that a statement is true or that something exists.
+bell - A hollow object, typically made of metal, that sounds a clear musical note when struck, typically by means of a clapper inside.
+bicycle - A vehicle composed of two wheels held in a frame one behind the other, propelled by pedals and steered with handlebars.
+biology - The study of living organisms, divided into many specialized fields that cover their morphology, physiology, anatomy, behavior, origin, and distribution.
+bird - A warm-blooded egg-laying vertebrate animal distinguished by the possession of feathers, wings, and a beak and (typically) by being able to fly.
+birthday - The anniversary of the day on which a person was born, typically treated as an occasion for celebration and the giving of gifts.
+biscuit - A small baked unleavened cake, typically crisp, flat, and sweet.
+blackboard - A large board with a smooth, usually dark surface, used for writing on with chalk.
+blanket - A large piece of woolen or similar material used as a bed covering or other covering for warmth.
+blessing - God's favor and protection.
+blizzard - A severe snowstorm with high winds and low visibility.
+blood - The red liquid that circulates in the arteries and veins of humans and other vertebrate animals, carrying oxygen to and carbon dioxide from the tissues of the body.
+blueprint - A design plan or other technical drawing.
+board - A long, thin, flat piece of wood or other hard material, used for floors or other building purposes.
+boat - A small vessel for traveling over water, propelled by oars, sails, or an engine.
+body - The physical structure of a person or an animal, including the bones, flesh, and organs.
+book - A set of written or printed pages, usually bound with a protective cover.
+border - A line separating two countries, administrative divisions, or other areas.
+bottle - A container, typically made of glass or plastic and with a narrow neck, used for storing drinks or other liquids.
+bowl - A round, deep dish or basin used for food or liquid.
+brain - An organ of soft nervous tissue contained in the skull of vertebrates, functioning as the coordinating center of sensation and intellectual and nervous activity.
+branch - A part of a tree that grows out from the trunk or from a bough.
+brave - Ready to face and endure danger or pain; showing courage.
+bread - Food made of flour, water, and yeast or another leavening agent, mixed together and baked.
+breakfast - A meal eaten in the morning, the first of the day.
+bridge - A structure carrying a road, path, railroad, or canal across a river, ravine, road, railroad, or other obstacle.
+brother - A man or boy in relation to other sons and daughters of his parents.
+brush - An implement with a handle and a block of bristles, hair, or wire, used for cleaning, smoothing, or painting.
+bubble - A thin sphere of liquid enclosing air or another gas.
+bucket - A roughly cylindrical open container with a handle, made of metal or plastic and used to hold and carry liquids or other material.
+building - A structure with a roof and walls, such as a house, school, store, or factory.
+bulb - A rounded underground storage organ present in some plants, notably those of the lily family.
+bus - A large motor vehicle carrying passengers by road, typically one serving the public on a fixed route and for a fare.
+butter - A pale yellow edible fatty substance made by churning cream and used as a spread or in cooking.
+button - A small disc or knob sewn onto a garment, either to fasten it by being pushed through a buttonhole or for decoration.
+cabin - A small shelter or house, made of wood and situated in a wild or remote area.
+cable - A thick, strong rope made of wires twisted together, used for supporting structures, for towing vehicles, and for other purposes.
+cake - An item of soft, sweet food made from a mixture of flour, shortening, eggs, sugar, and other ingredients, baked and often decorated.
+calculator - A small electronic device used for performing mathematical calculations.
+calendar - A chart or series of pages showing the days, weeks, and months of a particular year, or giving particular seasonal information.
+camera - A device for recording visual images in the form of photographs, film, or video signals.
+camp - A place with temporary accommodations of huts, tents, or other structures, typically used by soldiers, refugees, prisoners, or travelers.
+candle - A cylinder or block of wax or tallow with a central wick that is lit to produce light as it burns.
+candy - Sweets; confectionery.
+cap - A kind of soft, flat hat without a brim, and sometimes having a peak.
+captain - The person in command of a ship.
+car - A road vehicle, typically with four wheels, powered by an internal combustion engine and able to carry a small number of people.
+carpet - A floor or stair covering made from thick woven fabric, typically shaped to fit a particular room.
+carrot - A tapering orange-colored root eaten as a vegetable.
+cartoon - A simple drawing showing the features of its subjects in a humorously exaggerated way, especially a satirical one in a newspaper or magazine.
+cat - A small domesticated carnivorous mammal with soft fur, a short snout, and retractile claws.
+ceiling - The upper interior surface of a room or other similar compartment.
+cell - The smallest structural and functional unit of an organism.
+chair - A separate seat for one person, typically with a back and four legs.
+chalk - A white soft earthy limestone (calcium carbonate) formed from the skeletal remains of sea creatures.
+chapter - A main division of a book, typically with a number or title.
+chart - A sheet of information in the form of a table, graph, or diagram.
+cheese - A food made from the pressed curds of milk.
+chicken - A domestic fowl kept for its eggs or meat, especially a young one.
+child - A young human being below the age of puberty or below the legal age of majority.
+church - A building used for public Christian worship.
+circle - A round plane figure whose boundary consists of points equidistant from the center.
+circus - A traveling company of acrobats, clowns, and other entertainers which gives performances, typically in a large tent, in a series of different places.
+city - A large town.
+class - A set or category of things having some property or attribute in common and differentiated from others by kind, type, or quality.
+clock - An instrument for measuring and indicating time.
+cloud - A visible mass of condensed water vapor floating in the atmosphere, typically high above the ground.
+coach - A person who trains an athlete or a team of athletes.
+coal - A combustible black or dark brown rock consisting chiefly of carbonized plant matter, found mainly in underground deposits and widely used as fuel.
+coast - The part of the land adjoining or near the sea.
+coat - An outer garment worn outdoors, having sleeves and typically extending below the hips.
+coffee - A drink made from the roasted and ground bean-like seeds of a tropical shrub, served hot or iced.
+coin - A flat, typically round piece of metal with an official stamp, used as money.
+color - The property possessed by an object of producing different sensations on the eye as a result of the way it reflects or emits light.
+comb - A strip of plastic, metal, or wood with a row of narrow teeth, used for untangling or arranging the hair.
+computer - An electronic device for storing and processing data.
+continent - Any of the world's main continuous expanses of land (e.g., Africa, Asia, Europe).
+contract - A written or spoken agreement, especially one concerning employment, sales, or tenancy, that is intended to be enforceable by law.
+control - The power to influence or direct people's behavior or the course of events.
+cook - Prepare (food, a dish, or a meal) by combining and heating the ingredients in various ways.
+copy - A thing made to be similar or identical to another.
+corn - A North American cereal plant that yields large grains, or kernels, set in rows on a cob.
+corner - A place or angle where two or more sides or edges meet.
+correct - Free from error; in accordance with fact or truth.
+cost - An amount that has to be paid or spent to buy or obtain something.
+cotton - A soft white fibrous substance that surrounds the seeds of the cotton plant and is made into textile fiber and thread for sewing.
+country - A nation with its own government, occupying a particular territory.
+course - The route or direction followed by a ship, aircraft, road, or river.
+cover - Put something such as a cloth or lid on top of or in front of (something) in order to protect or conceal it.
+cow - A fully grown female animal of a domesticated breed of ox, kept to produce milk or beef.
+crack - A line on the surface of something along which it has split without breaking apart.
+crash - (Of a vehicle) collide violently with an obstacle or another vehicle.
+cream - The thick white or pale yellow fatty liquid that rises to the top when milk is left to stand and which can be beaten to form butter.
+credit - The ability of a customer to obtain goods or services before payment, based on the trust that payment will be made in the future.
+crime - An action or omission that constitutes an offense that may be prosecuted by the state and is punishable by law.
+crop - A cultivated plant that is grown as food, especially a grain, fruit, or vegetable.
+cross - A mark, object, or figure formed by two short intersecting lines or pieces (+).
+crowd - A large number of people gathered together in a disorganized or unruly way.
+crown - A circular ornamental headdress worn by a monarch as a symbol of authority, usually made of or decorated with precious metals and jewels.
+cruise - Sail about in an area without a precise destination, especially for pleasure.
+crystal - A piece of a homogeneous solid substance having a natural geometrically regular form with symmetrically arranged plane faces.
+cup - A small, bowl-shaped container for drinking from, typically having a handle.
+currency - A system of money in general use in a particular country.
+curtain - A piece of material suspended at the top to form a screen, typically movable sideways along a rail and found as one of a pair at a window.
+custom - A traditional and widely accepted way of behaving or doing something that is specific to a particular society, place, or time.
+cut - Make an opening, incision, or wound in (something) with a sharp-edged tool or object.
+cycle - A series of events that are regularly repeated in the same order.
+dad - One's father.
+damage - Physical harm caused to something in such a way as to impair its value, usefulness, or normal function.
+dance - Move rhythmically to music, typically following a set sequence of steps.
+danger - The possibility of suffering harm or injury.
+dark - With little or no light.
+data - Facts and statistics collected together for reference or analysis.
+daughter - A girl or woman in relation to either or both of her parents.
+day - Each of the twenty-four-hour periods, reckoned from one midnight to the next, into which a week, month, or year is divided, and corresponding to a rotation of the earth on its axis.
+dead - No longer alive.
+deal - Distribute (cards) in an orderly rotation to players for a game or round.
+death - The action or fact of dying or being killed; the end of the life of a person or organism.
+debt - Something, typically money, that is owed or due.
+decision - A conclusion or resolution reached after consideration.
+deep - Extending far down from the top or surface.
+deer - A hoofed grazing or browsing animal, with branched bony antlers that are shed annually and typically borne only by the male.
+delay - Make (someone or something) late or slow.
+demand - An insistent and peremptory request, made as if by right.
+desert - Abandon (a person, cause, or organization) in a way considered disloyal or treacherous.
+design - A plan or drawing produced to show the look and function or workings of a building, garment, or other object before it is made.
+desk - A piece of furniture with a flat or sloped surface and typically with drawers, at which one can read, write, or do other work.
+despair - The complete loss or absence of hope.
+destroy - Put an end to the existence of (something) by damaging or attacking it.
+detail - An individual feature, fact, or item.
+detect - Discover or identify the presence or existence of.
+device - A thing made or adapted for a particular purpose, especially a piece of mechanical or electronic equipment.
+diagram - A simplified drawing showing the appearance, structure, or workings of something; a schematic representation.
+diamond - A precious stone consisting of a clear and colorless crystalline form of pure carbon, the hardest naturally occurring substance.
+diary - A book in which one keeps a daily record of events and experiences.
+dictionary - A book or electronic resource that lists the words of a language (typically in alphabetical order) and gives their meaning, or gives the equivalent words in a different language, often also providing information about pronunciation, origin, and usage.
+diet - The kinds of food that a person, animal, or community habitually eats.
+difference - A point or way in which people or things are not the same.
+difficulty - The state or condition of being difficult.
+dig - Break up and move earth with a tool or machine, or with hands, paws, snout, etc.
+dinner - The main meal of the day, taken either around midday or in the evening.
+disease - A disorder of structure or function in a human, animal, or plant, especially one that produces specific symptoms or that affects a specific location and is not simply a direct result of physical injury.
+disk - A flat, thin, round object.
+distance - An amount of space between two things or people.
+divide - Separate or be separated into parts.
+doctor - A person who is qualified to treat people who are ill.
+dog - A domesticated carnivorous mammal with four legs.
+door - A hinged, sliding, or revolving barrier at the entrance to a building, room, or vehicle, or in the framework of a cupboard.
+double - Consisting of two equal, identical, or similar
+banana - A long curved fruit with a thick skin and soft sweet flesh.
+bicycle - A vehicle composed of two wheels held in a frame one behind the other, propelled by pedals and steered with handlebars.
+camera - A device for recording visual images in the form of photographs, film, or video signals.
+chocolate - A food preparation in the form of a paste or solid block made from roasted and ground cacao seeds, typically sweetened.
+cloud - A visible mass of condensed water vapor floating in the atmosphere, typically high above the ground.
+coffee - A drink made from the roasted and ground bean-like seeds of a tropical shrub, served hot or iced.
+education - The process of receiving or giving systematic instruction, especially at a school or university.
+family - A group consisting of parents and children living together in a household.
+forest - A large area covered chiefly with trees and undergrowth.
+garden - A piece of ground adjoining a house, used for growing flowers, fruit, or vegetables.
+happiness - The state of being happy; feeling of joy or pleasure.
+ice - Frozen water, a brittle transparent crystalline solid.
+jacket - An outer garment extending either to the waist or the hips, typically having sleeves and a fastening down the front.
+jungle - An area of land overgrown with dense forest and tangled vegetation, typically in the tropics.
+library - A building or room containing collections of books, periodicals, and sometimes films and recorded music for people to read, borrow, or refer to.
+light - The natural agent that stimulates sight and makes things visible.
+moon - The natural satellite of the earth, visible (chiefly at night) by reflected light from the sun.
+mountain - A large natural elevation of the earth's surface rising abruptly from the surrounding level; a large steep hill.
+ocean - A very large expanse of sea, in particular, each of the main areas into which the sea is divided geographically.
+pencil - An instrument for writing or drawing, consisting of a thin stick of graphite or a similar substance enclosed in a long thin piece of wood or held in a mechanical holder.
+phone - A device that allows people to make and receive telephone calls.
+pizza - A dish of Italian origin consisting of a flat, round base of dough baked with a topping of tomatoes and cheese, typically with added meat or vegetables.
+rain - Moisture condensed from the atmosphere that falls visibly in separate drops.
+school - An institution for educating children or a place where people go to learn a particular subject.
+star - A fixed luminous point in the night sky that is a large, remote incandescent body like the sun.
+sun - The star around which the earth orbits.
+teacher - A person who teaches, especially in a school.
+tree - A woody perennial plant, typically having a single stem or trunk growing to a considerable height and bearing lateral branches at some distance from the ground.
+umbrella - A device consisting of a circular canopy of cloth on a folding metal frame supported by a central rod, used as protection against rain or sometimes sun.
+universe - All existing matter and space considered as a whole; the cosmos.
+water - A colorless, transparent, odorless liquid that forms the seas, lakes, rivers, and rain and is the basis of the fluids of living organisms.
+window - An opening in the wall or roof of a building or vehicle that is fitted with glass or other transparent material to allow light or air in and to enable those inside to see out.
+world - The earth, together with all of its countries, peoples, and natural features.
+year - The time taken by the earth to make one revolution around the sun.
+zoo - An establishment that maintains a collection of wild animals, typically in a park or gardens, for study, conservation, or display to the public.
+presente you - I am an MAI+ created by Pencilblue0. I live to help you.
+MAI+ - ai create by pencilblue0 
+chatgpt - IA create by openai
+What is the definition of  artificial intelligence? - Definition: Artificial intelligence refers to the simulation of human intelligence in machines that are programmed to think and learn like humans.
+Explain the concept of machine learning. - Explanation: Machine learning is a subset of artificial intelligence that allows systems to learn from data and improve their performance without being explicitly programmed.
+What is gravity? - Explanation: Gravity is the force that attracts objects toward each other, especially the force that makes things fall to the ground.
+Who invented the computer? - Fact: The computer was invented by Charles Babbage, considered the "father of the computer", who conceptualized the first mechanical computer in the early 19th century.
+What is the capital of France? - Fact: The capital of France is Paris, known for its art, fashion, gastronomy, and culture.
+What are the symptoms of COVID-19? -Facts: Symptoms of COVID-19 include fever, cough, shortness of breath, loss of taste or smell, and fatigue.
+Solutions for a computer that won't start. - Solution: If a computer won't start, check the power supply, ensure all cables are connected properly, and consider testing with a different power outlet.
+What do you think ChatGPT? - ChatGPT is my competitor, but it is not open source. I respect ChatGPT.
