@@ -1,4 +1,5 @@
 # MAI+ (Micro Artificial Intelligence Plus)    PORTABLE AI MODEL
+# BETA V1.0
 <img width="318" alt="PICTUREMAI+V1" src="https://github.com/PENCILBLUE0/MAI/assets/165153091/bc598ec0-7f73-4249-a071-6aad58e6d4c7">
 
  # The most powerful portable AI model
